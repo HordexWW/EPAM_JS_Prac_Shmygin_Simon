@@ -2,11 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Greeting</title>
+    <title>Application</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
 
-<h1>Hello world</h1>
+<div>
+    <p id="mode-status-text">Mode: All voices</p>
+</div>
+
+<nav class="nav">
+    <a id="allVoicesButton" href="#" class="nav__link nav__link--active">
+        <span class="material-icons">forum</span>
+        <span id="allVoices" class="nav__text">All voices</span>
+    </a>
+    <a id="microphoneButton"  href="#" class="nav__link">
+        <span class="material-icons">mic</span>
+        <span id="microphone" class="nav__text ">Microphone</span>
+    </a>
+    <a id="streamButton"  href="#" class="nav__link">
+        <span class="material-icons">surround_sound</span>
+        <span id="stream" class="nav__text" onclick="">Stream</span>
+    </a>
+</nav>
 
 </body>
 </html>
