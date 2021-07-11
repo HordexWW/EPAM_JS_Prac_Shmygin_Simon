@@ -7,16 +7,33 @@
 </head>
 <body>
 
+<ul class="voicesList center">
+
+</ul>
+
 <div>
-    <p id="mode-status-text">Mode: All voices</p>
+    <button type="button" class="recordButton center">
+        <i class="material-icons record-icon">mic</i>
+
+    </button>
+</div>
+
+<div class="loading center inactive">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+
+<div>
+    <p class="mode-status-text center">Microphone</p>
 </div>
 
 <nav class="nav">
-    <a id="allVoicesButton" href="#" class="nav__link nav__link--active">
+    <a id="allVoicesButton" href="#" class="nav__link">
         <span class="material-icons">forum</span>
         <span id="allVoices" class="nav__text">All voices</span>
     </a>
-    <a id="microphoneButton"  href="#" class="nav__link">
+    <a id="microphoneButton"  href="#" class="nav__link nav__link--active">
         <span class="material-icons">mic</span>
         <span id="microphone" class="nav__text ">Microphone</span>
     </a>

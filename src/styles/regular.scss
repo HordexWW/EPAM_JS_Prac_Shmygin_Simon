@@ -40,13 +40,59 @@ body {
 
 .nav__icon {
   font-size: 18px;
+
 }
 
-p{
-  position: absolute;
-  top: 40%;
+p {
+  top: 0%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
+
+}
+
+p.mode-status-text {
+  position: absolute;
   font-size: 40px;
+}
+
+p.audio-data {
+  position: relative;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: auto;
+}
+
+.recordButton {
+  color: #444444;
+  top: 45%;
+  border: none;
+  outline: none;
+  background-color: #ffffff;
+}
+
+.voicesList {
+  top: 45%;
+}
+.voicesList li {
+  list-style-type: none;
+  background-color: #c9c9c9;
+  padding-top: 1px;
+  border-radius: 20px;
+  margin-bottom: 5px;
+}
+
+.center {
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.recording {
+  color: #ff7700;
+}
+
+.record-icon {
+  font-size: 120px;
 }
